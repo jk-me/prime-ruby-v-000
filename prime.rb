@@ -3,10 +3,9 @@ def prime?(num)
   if num <=1
     return FALSE
   end
-  x=(1..num).to_a 
+  x=(2..num).to_a 
   x.pop
-  x.shift
   x.each do|n|
-    if num%n 
-  primes.none?{|x| num%x==0}
+    num%n =0 ? TRUE : FALSE
+  end
 end
