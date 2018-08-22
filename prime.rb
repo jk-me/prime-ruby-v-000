@@ -6,6 +6,6 @@ def prime?(num)
   x=(2..num).to_a 
   x.pop
   x.each do|n|
-    num%n =0 ? TRUE : FALSE
+    num%n =0 ? FALSE : TRUE
   end
 end
