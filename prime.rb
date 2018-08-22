@@ -6,6 +6,6 @@ def prime?(num)
     x=(2..num).to_a 
     x.pop
     x.none?{|n| num%n==0}
-    end
+  
   end
 end
