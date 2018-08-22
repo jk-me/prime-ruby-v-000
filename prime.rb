@@ -7,5 +7,6 @@ def prime?(num)
     x.pop
     x.each do|n|
       num%n !=0 ? TRUE : FALSE
+    end
   end
 end
